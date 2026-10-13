@@ -1,0 +1,8 @@
+name: citation-parser
+description: Parse and validate the local JSON claim/reference structure.
+input_schema:
+  type: object
+  properties:
+    document:
+      type: object
+  required: [document]

@@ -1,0 +1,10 @@
+name: source-metadata-checker
+description: Check required bibliographic fields, duplicate identifiers, and basic DOI syntax.
+input_schema:
+  type: object
+  properties:
+    references:
+      type: array
+      items:
+        type: object
+  required: [references]

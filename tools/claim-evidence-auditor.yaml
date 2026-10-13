@@ -1,0 +1,14 @@
+name: claim-evidence-auditor
+description: Compare in-text citation keys with bibliography keys and flag missing links.
+input_schema:
+  type: object
+  properties:
+    claims:
+      type: array
+      items:
+        type: object
+    references:
+      type: array
+      items:
+        type: object
+  required: [claims, references]

@@ -1,0 +1,36 @@
+{
+  "claims": [
+    {
+      "id": "claim-1",
+      "text": "Example claim with a source.",
+      "citation_keys": [
+        "smith2023"
+      ]
+    },
+    {
+      "id": "claim-2",
+      "text": "A second claim with an unresolved citation.",
+      "citation_keys": [
+        "missing2022"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "key": "smith2023",
+      "title": "Example Study",
+      "authors": [
+        "A. Smith"
+      ],
+      "year": 2023,
+      "doi": "10.1234/example"
+    },
+    {
+      "key": "uncited2021",
+      "title": "",
+      "authors": [],
+      "year": 2021,
+      "doi": ""
+    }
+  ]
+}

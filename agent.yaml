@@ -1,0 +1,23 @@
+spec_version: "0.1.0"
+name: citation-integrity-audit-agent
+version: "1.0.0"
+description: Audits citations, bibliography entries, and claim-to-source links for traceable evidence and consistency.
+author: jagapathi-meesala
+license: MIT
+skills:
+  - citation-source-verification
+  - claim-evidence-mapping
+  - bibliography-consistency
+tools:
+  - citation-parser
+  - source-metadata-checker
+  - claim-evidence-auditor
+runtime:
+  max_turns: 5
+  temperature: 0.2
+  timeout: 30
+tags:
+  - citations
+  - research-integrity
+  - bibliography
+  - evidence-audit
